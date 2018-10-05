@@ -8,7 +8,11 @@
 /recovery	emmc	/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY	flags=backup=1;display="Recovery"
 
 /modem		emmc	/dev/block/platform/13540000.dwmmc0/by-name/RADIO	flags=backup=1;display="Baseband"
-/efs		ext4	/dev/block/platform/13540000.dwmmc0/by-name/EFS	flags=backup=1;display="EFS"
+/efs		ext4	/dev/block/platform/13540000.dwmmc0/by-name/EFS	flags=backup=1;display="EFS
+/cpefs		emmc	/dev/block/platform/13540000.dwmmc0/by-name/CPEFS	 flags=backup=1;display="CPEFS"
+/m9kefs    emmc  /dev/block/platform/13540000.dwmmc0/by-name/m9kefs1  flags=backup=1
+/m9kefs2    emmc  /dev/block/platform/13540000.dwmmc0/by-name/m9kefs2  flags=backup=1;subpartitionof=/m9kefs
+/m9kefs3    emmc  /dev/block/platform/13540000.dwmmc0/by-name/m9kefs3  flags=backup=1;subpartitionof=/m9kefs
 
 /misc		emmc	/dev/block/platform/13540000.dwmmc0/by-name/MISC	flags=backup=0;display="Misc"
 /vendor		ext4	/dev/block/platform/13540000.dwmmc0/by-name/VENDOR
