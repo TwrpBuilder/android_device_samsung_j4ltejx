@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a6ltexx/
+LOCAL_PATH := device/samsung/j4ltejx/
 include $(call all-makefiles-under,$(LOCAL_PATH))
